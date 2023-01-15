@@ -1,0 +1,297 @@
+/* FONT FACES */
+
+@font-face {
+    font-family: didot;
+    src: url(Didot-Bold.otf)
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(SaolDisplay-Regular.ttf)
+}
+
+@font-face {
+    font-family: neue;
+    src: url(NeueHaasUnica-Regular.ttf)
+}
+
+.didot {
+    font-family: didot;
+}
+
+.neue {
+    font-family: neue;
+}
+
+/* MAJOR TAGS USED THROUGHOUT THE PAGE */
+* {
+    text-align: center;
+    margin: 0;
+    font-family: myFirstFont;
+}
+
+.container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.by_ {
+    font-size: 0.8rem;
+}
+
+.by_underline {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.by_underline:hover {
+    text-decoration: underline;
+}
+
+.by_padding {
+    padding-top: 1rem;
+}
+
+hr {
+    height: 4;
+    width: 100%;
+    margin: 30px auto;
+    color: grey;
+}
+
+a h1 {
+    font-family: myFirstFont;
+    line-height: 0.85;
+    letter-spacing: -0.15rem;
+    font-size: 4.975rem;
+}
+
+a h1:hover {
+    color: black;
+    font-style: italic;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+/*   FASHION */
+
+.sub-heading {
+    font-style: italic;
+}
+
+img {
+    width: 100%;
+    padding: 5px;
+}
+
+/* SIDE PANEL */
+
+.offcanvas a {
+    font-family: neue;
+    text-align: left;
+}
+
+.btn1 {
+    font-size: small;
+    text-align: center;
+    border: solid grey 2px;
+    background-color: transparent;
+}
+
+.btn1:hover {
+    background-color: rgb(221, 221, 221);
+    border: solid grey 2px;
+}
+
+.offcanvas-body {
+    text-align: left;
+}
+
+/* Navigation Bar  */
+
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+    color: black;
+    padding-top: 10px;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-size: 18px;
+}
+
+.navbar-brand {
+    font-family: didot;
+    font-size: 2.5 rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: light;
+}
+
+/* MAIN SECTION */
+.main-section1 {
+    line-height: 40px;
+    padding: 100px;
+}
+
+.main-section1 h2 {
+    font-size: 2.125rem;
+    line-height: 1.1;
+}
+
+/* FASHION */
+.fashion {
+    width: 70%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* SHOP */
+.shop p {
+    text-align: left;
+    width: 90%;
+    margin-left: 15px;
+}
+
+.shop p:hover {
+    color: grey;
+}
+
+/* BEAUTY */
+
+.beauty-list img {
+    padding: 5px;
+}
+
+.beauty-list p {
+    text-align: left;
+}
+
+.beauty-list h6 {
+    text-align: left;
+}
+
+.beauty-list h5 {
+    text-align: left;
+}
+
+.beauty-list h5:hover {
+    color: grey;
+}
+
+.beauty h3:hover {
+    color: gray;
+}
+
+/* NEWS */
+
+.news img {
+    width: 90%;
+    margin: 10px;
+}
+
+.news-col {
+    border-style: solid;
+    border-width: 15px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.news p {
+    text-align: left;
+}
+
+.news-card a p {
+    text-align: left;
+}
+
+/* VIDEO */
+.video {
+    width: 100%;
+    height: 500px;
+}
+
+.song-heading:hover {
+    color: grey;
+}
+
+/* FOOTER */
+
+footer a {
+    font-family: neue;
+    color: white;
+    text-align: left;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(14, 14, 14);
+    color: white;
+    font-family: neue;
+    text-align: left;
+    width: 100%;
+}
+
+.footer_ul {
+    margin-bottom: 20px;
+}
+
+.footer_ul li {
+    text-align: left;
+}
+
+.footer_ul a {
+    color: white;
+    text-align: left;
+}
+
+.footer_ul a:hover {
+    color: white;
+}
+
+.footer_title {
+    font-size: 3rem;
+    text-align: left;
+}
+
+.footer_ul span {
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+
+.footer_p {
+    text-align: center;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 575px) {
+    .shop {
+        width: 50%;
+    }
+
+    .video {
+        width: 80%;
+    }
+}
